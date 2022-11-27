@@ -1,0 +1,353 @@
+@media only screen and (max-width: 1920px){
+	.strelk1-2{
+		display: none;
+	}
+
+	.strelk1{
+		display: none;
+	}
+}
+
+
+/* PHONE ADAPTIVE */
+
+@media only screen and (max-width: 320px){
+
+	/* HEADER */
+
+	.background{
+		height: 800px;
+	}
+
+	.pol1{
+		display: none;
+	}
+
+	.pol2{
+		display: none;
+	}
+
+	.pol4{
+		width: 35%;
+		top: 582px;
+		right: 246px;
+	}
+
+	.pol3{
+		width: 48%;
+		top: 610px;
+		right: 194px;
+	}
+
+	.pol5{
+		width: 25%;
+		top: 664px;
+		right: 268px;
+	}
+
+	.logo_wrap{
+		margin: 0;
+	}
+
+	.logo_img img{
+		width: 200px;
+		height: 50px;
+	}
+
+	.logo_img {
+		width: 130px;
+		height: 45px;
+		background-image: url('../img/adaptive/adaptiv_logo.svg');
+	}
+
+	.ulllll{
+		display: grid;
+		grid-template-columns: 1fr 1fr;	
+		margin-top: 30px;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 17px;
+		letter-spacing: 0em;
+		text-align: center;
+
+	}
+
+	.ulllll div{
+  		display: grid;
+	}
+
+	.in_nav_phonenumbr{
+		display: flex;
+	}
+
+	.phone{
+		display: none;
+	}
+
+	.start_center{
+		padding-top: 43px;
+	}
+
+	.start_center div h1{
+		font-size: 48px;
+		line-height: 68px;
+	}
+
+	.start_center div h2{
+		font-size: 20px;
+		line-height: 24px;
+		margin-top: 23px;
+	}
+
+	.vector{
+		margin-top: 260px;
+
+	}
+
+	.vk{
+		top: auto;
+		left: 275px;
+	}
+
+	.inst{
+		top: auto;
+		left: 238px;
+	}
+
+
+	/* GALLERY */
+
+	.gallery_wrapper{
+		margin: 0;
+		max-width: 0;
+		height: 1347px;
+		width: auto;
+	}
+
+	.gallery_section{
+		height: 3003px;
+		width: auto;
+	}
+
+
+	.new_life{
+		display: flex;
+		flex-flow: wrap;
+	}
+
+	.nl_img1{
+		width: 320px;
+		height: 446px;
+		margin-top: 100px;
+		margin-bottom: -50px;
+		align-self: center;
+		order: 1;
+	}
+
+	.nl_img2{
+		width: 320px;
+		height: 446px;
+		margin-top: 0;
+		order: 2;
+	}
+
+	.nl_text{
+		order: -1;
+		text-align: center;
+		height: 364px;
+		margin: 0 15px;
+		margin-top: 90px;
+	}
+
+	.strelk2{
+		display: none;
+	}
+
+	.strelk2-2{
+		display: none;
+	}
+
+	.benefits_wrapper {
+		margin: 0 auto;
+		margin-top: 80px;
+		max-width: 232px;
+	}
+
+	.benefits{
+		display: inherit;
+		height: 720px;
+	}
+
+	.ben {
+		display: inherit;
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+		margin-bottom: 70px;
+
+	}
+
+	.benefits_undr-line{
+		display: none;
+	}
+
+	.pol7{
+		width: 25%;
+		top: 3669px;
+	}
+
+	.pol6{
+		width: 18%;
+		top: 3680px;
+	}
+
+	.gallery{
+		width: auto;
+	}
+
+	.gallery h1{
+		margin-top: 0;
+	}
+
+	.gal_scrol-1 img, .gal_scrol-2 img{
+		width: 270px;
+	}
+
+
+	.gal_scrol-1 img:nth-child(n+2){
+		display: none;
+	}
+
+	.gal_scrol-2 img:nth-child(n+2){
+		display: none;
+	}
+
+			/* ABONEMENTS */
+		.abonements{
+			height: 2700px;
+		}
+
+		.abonements_wrapper {
+			width: auto;
+			padding-top: 80px;
+		}
+
+		.abonements_wrapper h1 {
+			padding-top: 80px;
+			text-align: center;
+		}
+
+		.line-undr-table{
+		  display: inherit;
+		}
+	
+		.ab_lines{
+			display: none;
+		}
+
+		.coach-lines{
+			display: none;
+		}
+
+		.all_cards{
+			display: block;
+		}
+
+				/* COACH */
+		.guys-coach {
+		  display: inherit;
+		  padding: 0;
+		}
+
+		.guys-coach_card{
+			height: auto;
+		}
+
+		.guys-coach_card:nth-child(n+3){
+			display: none;
+		}
+
+		.guys-coach_card:nth-child(1){
+			margin-top: 80px;
+			margin-bottom: 60px;
+		}
+
+				/* ANY-Q */		
+		.q-block{
+			width: 290px;
+			margin: 0 auto;
+		}
+
+		.q-block h1{
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+
+		.q-block h2{
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 24px;
+		}
+
+		.q-block p{
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 20px;
+
+		}
+
+		.q-block p:last-child {
+		  width: auto;
+		}
+
+
+		/*  MAP */
+
+		.map-block{
+			margin-left: 0;
+			margin-top: 120px;
+			width: 100%;
+		}
+
+		.inblock-wrapper{
+			margin: 0;
+		}
+
+
+		/* FOOTER */
+
+		footer{
+			height: 458px;
+		}
+
+		.footer-wrapper {
+		  max-width: 0;
+		  height: 0;
+		  margin: 0;
+		}
+
+		.footer-grid {
+		  display: inherit;
+		}
+
+		.margin-top-footer{
+			margin: 0;
+		}
+
+
+		.margin-top-footer{
+			display: none;
+		}
+
+		.margin-top-footer:nth-child(1){
+			display: inherit;
+		}
+
+		.margin-top-footer:last-child{
+			display: grid;
+			gap: 10px;
+		}
+
+
+}
