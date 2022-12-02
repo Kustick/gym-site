@@ -392,7 +392,7 @@
   font-family: 'Montserrat';
   background-color: #E5E5E5;
   height: 1690px;
-  overflow: hidden;
+  overflow: hidden; 
 
 }
 
@@ -593,7 +593,7 @@
   height: 827px;
   width: 100%;
   font-family: 'Montserrat';
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
@@ -671,7 +671,7 @@
   background: url(../img/any-q-bakcgr.jpg) 100% no-repeat;
   background-size: cover;
   font-family: Montserrat;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .any-q-2bck{
@@ -740,11 +740,11 @@
 .q-block a{
   text-decoration: none;
   font-family: Montserrat;
-font-size: 16px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 
 }
 
@@ -768,10 +768,11 @@ text-align: center;
   background: url(../img/map.jpg) 100% no-repeat;
   background-size: cover;
   font-family: Montserrat;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .map-block{
+  width: 396px;
   height: 449px;
   background: #0C1417;
   margin-left: 9%;
@@ -816,9 +817,9 @@ footer{
   height: 241px;
   width: auto;
   background: #000000;
-  overflow: hidden;
-  
+  /* overflow: hidden; */
 }
+
 .footer-wrapper{
   max-width: 1671px;
   height: 241px;
