@@ -11,7 +11,7 @@
 
 /* PHONE ADAPTIVE */
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 460px){
 
 	/* HEADER */
 
@@ -30,19 +30,16 @@
 	.pol4{
 		width: 35%;
 		top: 582px;
-		right: 246px;
 	}
 
 	.pol3{
 		width: 48%;
 		top: 610px;
-		right: 194px;
 	}
 
 	.pol5{
 		width: 25%;
 		top: 664px;
-		right: 268px;
 	}
 
 	.logo_wrap{
@@ -119,9 +116,9 @@
 
 	.gallery_wrapper{
 		margin: 0;
-		max-width: 0;
+		max-width: 90%;
 		height: 1347px;
-		width: auto;
+		margin: 0 auto;
 	}
 
 	.gallery_section{
@@ -133,6 +130,11 @@
 	.new_life{
 		display: flex;
 		flex-flow: wrap;
+	}
+
+	.nl_box{
+		margin: 0 auto;
+		margin-top: 40px;
 	}
 
 	.nl_img1{
@@ -149,6 +151,10 @@
 		height: 446px;
 		margin-top: 0;
 		order: 2;
+	}
+
+	.new_life_image {
+		margin: 0 auto;
 	}
 
 	.nl_text{
@@ -251,6 +257,7 @@
 
 		.all_cards{
 			display: block;
+			margin: 0 auto;
 		}
 
 				/* COACH */
